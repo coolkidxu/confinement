@@ -50,7 +50,7 @@
       <div class="introduce-content">
         <div class="introduce-content-left">
           <div class="introduce-content-left-title">
-            <h2>月子中心介绍</h2>
+
           </div>
           <div class="introduce-content-left-content">
             <p>
@@ -120,11 +120,11 @@
   height: 950px;
 
 }
-.introduce-content {
-
-}
 .introduce-title {
   font-size: 46px;
   margin: 63px 0;
+}
+.introduce-content-left-title {
+  background-color: var(--el-color-primary);
 }
 </style>
