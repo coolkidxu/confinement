@@ -16,6 +16,7 @@ import Header from "@/components/Header.vue";
 <style scoped>
 .el-main {
   padding: 0 !important;
+  font-family: PingFang SC-Medium, PingFang SC;
 }
 
 .el-container {
