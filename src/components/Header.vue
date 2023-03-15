@@ -33,7 +33,6 @@ const handleSelect = (key, keyPath) => {
 .header-container {
   background-color: var(--el-color-primary);
   text-align: center;
-  height: 110px;
   padding-top: 30px;
 }
 .menu-container {

@@ -4,12 +4,12 @@ import Header from "@/components/Header.vue";
 </script>
 
 <template>
-  <el-container>
+  <div class="container">
     <Header></Header>
     <el-main>
       <RouterView/>
     </el-main>
-  </el-container>
+  </div>
 </template>
 
 <style scoped>
@@ -20,9 +20,7 @@ import Header from "@/components/Header.vue";
 .el-main::-webkit-scrollbar{
   display:none
 }
-
-.el-container {
-  height: 100vh;
+.container {
   min-width: 1500px;
 }
 </style>
