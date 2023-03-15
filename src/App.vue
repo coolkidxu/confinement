@@ -9,7 +9,6 @@ import Header from "@/components/Header.vue";
     <el-main>
       <RouterView/>
     </el-main>
-    <el-footer>Footer</el-footer>
   </el-container>
 </template>
 
@@ -18,9 +17,12 @@ import Header from "@/components/Header.vue";
   padding: 0 !important;
   font-family: PingFang SC-Medium, PingFang SC;
 }
+.el-main::-webkit-scrollbar{
+  display:none
+}
 
 .el-container {
   height: 100vh;
-  width: 100vw;
+  min-width: 1500px;
 }
 </style>
